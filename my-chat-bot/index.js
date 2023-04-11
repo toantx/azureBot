@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 const path = require('path');
-
+const { Configuration, OpenAIApi } = require("openai");
 const dotenv = require('dotenv');
 // Import required bot configuration.
 const ENV_FILE = path.join(__dirname, '.env');
